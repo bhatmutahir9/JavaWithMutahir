@@ -13,9 +13,8 @@ public class BitwiseOperators {
 
         int ANDex = 5 & 4;
         System.out.println("Value of AND operation : "+ANDex);
-        /* this will print 4 Explaination 5 and 4 will be converted
-        // to binary numbers then multiplied it will give 4 like binary of 4 is 100 and 5 is 101
-        multiplied value = 100 i,e 4 */
+        /* this will print 4 : Explaination 5 and 4 will be converted to binary numbers then multiplied
+        it will give 4 like binary of 4 is 100 and 5 is 101 multiplied value = 100 i,e 4 */
 
         int NOTex = 5;
         int C  = ~NOTex;
@@ -35,6 +34,7 @@ public class BitwiseOperators {
         int rightshifted = RightShift >> 1;
         System.out.println("Value after RightShift by 1 is : "+rightshifted);
 
+        // Unsigned Rightshift  shifts bits to the right and always fills the empty left bits with 0, no matter the number is positive or negative.
 
         //BELOW IS CONVERSION EXAMPLE
         System.out.println("Binary of 5 is : "+Integer.toBinaryString(5));
