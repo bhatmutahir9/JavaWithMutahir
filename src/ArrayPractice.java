@@ -75,7 +75,7 @@ public static void main(String[] args) {
 // }
 
 // linear search 
-// public class evenOdd{
+// public class linearSearch{
 //   public static void main(String[] args){
 //     int[] nums = {32,98,56,457,45,101,913,22};
 //     int target = 913;
