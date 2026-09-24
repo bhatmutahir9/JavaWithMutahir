@@ -89,3 +89,26 @@ public static void main(String[] args) {
 //     System.out.println (found);
 //   }
 // }
+ 
+// find the avg of array elements 
+// public static void main(String[] args) {
+//       int[] nums = {10,25,30};
+//       int sum = 0;
+//       for(int num : nums){
+//         sum += num; // 0 + 10 , 10 + 25, 35 + 30 , sum becomes 65
+//       }
+//       double average = sum/nums.length;
+//       System.out.println("Avg of array : " + average);
+//     }
+
+// program for checking duplicate values 
+// public static void main(String[] args) {
+//    int[] numbers = {10, 50, 30, 40,10};
+//    for(int i=0; i<numbers.length;i++){
+//     for(int j = 0;j<numbers.length;j++){
+//       if(i != j && numbers[i] == numbers[j]) { //  i != j means indices are not same         
+//      System.out.println("Duplicat numbers found which is  : " + numbers[i] + " at indices " + i + " and "+ j );;
+//       }
+//     }
+//    }
+//   }
